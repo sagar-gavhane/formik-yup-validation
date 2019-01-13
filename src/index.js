@@ -6,7 +6,7 @@ import WithoutFormik from './WithoutFormik/WithoutFormik'
 import WithFormik from './WithFormik/WithFormik'
 import './styles.css'
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Switch>
@@ -18,5 +18,4 @@ function App() {
   )
 }
 
-const rootElement = document.getElementById('root')
-ReactDOM.render(<App />, rootElement)
+ReactDOM.render(<App />, document.getElementById('root'))
