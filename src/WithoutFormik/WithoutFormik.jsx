@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 import createRepository from './../services/createRepository'
 
-class WithoutFormik extends React.Component {
+class WithoutFormik extends Component {
   state = {
     name: '',
     desc: '',
