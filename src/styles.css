@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* author stylesheet */
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  margin: 2rem auto;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+  line-height: 20px;
+  /* background: lightblue; */
+}
+
+.row > * {
+  flex: 1 100%;
+}
+
+.heading {
+  font-size: 1.5rem;
+  color: #000000;
+  margin: 1rem 0;
+}
+
+.sub-heading {
+  color: gray;
+}
+
+.form-group {
+  display: block;
+  margin: 1rem 0;
+}
+
+.form-group label {
+  display: block;
+  margin: 1rem 0;
+  color: #111111;
+}
+
+.form-group input[type='text'],
+.form-group select,
+.form-group textarea {
+  padding: 0.5rem 0.8rem;
+  min-width: 250px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border: 2px solid #ffc107;
+  outline: none;
+}
+
+.btn {
+  padding: 0.8rem 1.2rem;
+  margin: 1rem 0;
+  background: #3cab40;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+}
+
+button:disabled {
+  background: #5cd660;
+  color: #ffffff;
+}
+
+.feedback-invalid {
+  color: #f44336;
+  margin: 0.5rem auto;
+  font-size: 0.8rem;
+}
